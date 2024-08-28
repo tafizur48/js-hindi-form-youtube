@@ -1,9 +1,9 @@
 //array decleration
 
-const myArr = [0, 2, 6, 1, 9]
-const myHeoro = ["shaktiman, marvel"]
+// const myArr = [0, 2, 6, 1, 9]
+// const myHeoro = ["shaktiman, marvel"]
 
-const myArr2 = new Array(1, 2, 3, 9,)
+// const myArr2 = new Array(1, 2, 3, 9,)
 // console.log(myArr[1]);
 
 
@@ -34,17 +34,53 @@ const myArr2 = new Array(1, 2, 3, 9,)
 
 // slice , splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
-const myn1 = myArr.slice(1, 3)
+// const myn1 = myArr.slice(1, 3)
 
-console.log(myn1);
-console.log("B ", myArr);
+// console.log(myn1);
+// console.log("B ", myArr);
 
-const myn2 = myArr.splice(1, 3)
-console.log("c ", myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1, 3)
+// console.log("c ", myArr);
+// console.log(myn2);
+
+// array part 2
+
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+
+// marvel_heros.push(dc_heros)
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][1]);
+
+// const allHeros = marvel_heros.concat(dc_heros)
+// console.log(allHeros);
+// same work in different ways
+const all_new_heros = [...marvel_heros, ...dc_heros]
+// console.log(all_new_heros);
+
+const another_array = [1, 2, 3, [4, 5, 6], [ 6, 7, [4, 5]]]
+
+// flat means kitna depth tak a array solve 
+// kore like [4,5,6,]array ke andar array
+
+const real_another_array = another_array.flat(Infinity)
+// console.log(real_another_array);
+
+console.log(Array.isArray("Tafizur"))
+console.log(Array.from("Tafizur"));
+
+console.log(Array.from({name: "tafizur"}))//empty array when you don't suggest or
+// given to do work then gives empty
 
 
+let score = 100
+
+let score2 = 200
+
+let score3 = 300
+
+console.log(Array.of(score, score2, score3));
 
 
