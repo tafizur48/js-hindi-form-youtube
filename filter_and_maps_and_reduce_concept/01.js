@@ -1,3 +1,5 @@
+// filter method
+
 // const coding  = ['js', 'python', 'java', 'cpp', 'ruby']
 
 // const values = coding.forEach(  (item) =>{
