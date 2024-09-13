@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    
+        
+    <style>
+        .youtube{
+    display: flex;
+    /* height: 50px; */
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    float:right;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+    border: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+}
+.center{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#clock{
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+   
+    <nav>
+        <a href="http://192.168.129.226:5500/1-ColorChanger/index.html#" aria-current="page" class="youtube">Home</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=EGqHVjU-fas&t=3s&ab_channel=ChaiaurCode" class="youtube">Youtube Chanel</a>  
+    </nav>
+    <div class="center">
+    <div id="banner"><span>Your Local Time</span></div>
+    <div id="clock"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
